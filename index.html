@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview code</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="conatainer">
+        <!-- textarea box  start here-->
+        <textarea class="container__textarea roboto-regular" id="textBox"></textarea>
+        <!-- textarea box  end here-->
+        <!-- button box  start here-->
+        <div class="button-area text-center">
+            <button class="container__btn container__button--copy roboto-medium" onclick="copyCode()">Copy</button>
+            <button class="container__btn container__button--save roboto-medium" onclick="saveCode()">Save</button>
+            <button class="container__btn container__button--lock roboto-medium" onclick="toggleLock()">Lock/<span
+                    class="unlock-color">Unlock</span></button>
+        </div>
+        <!-- button box end here-->
+    </div>
+</body>
+
+</html>
